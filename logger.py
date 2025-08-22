@@ -2,7 +2,7 @@ import logging
 import os
 
 
-LOG_PATH_TXT = 'data\\bot.log'
+LOG_PATH_TXT = 'data/bot.log'
 
 #-- function to initialize a logger that writes log to a file
 def setup_logger(name: str, log_file: str = LOG_PATH_TXT, level=logging.INFO):
