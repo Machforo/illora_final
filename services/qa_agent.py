@@ -35,7 +35,7 @@ class ConciergeBot:
             )
 
             # Load Do’s & Don’ts
-            self.dos_donts_path = "data\\dos_donts.json"
+            self.dos_donts_path = "data/dos_donts.json"
             self.dos_donts = self._load_dos_donts()
 
             logger.info("ILLORA RETREATS QA agent initialized successfully.")
