@@ -1,0 +1,206 @@
+2025-08-20 19:14:45,187 | VectorStoreService | INFO | Loaded 1494 documents from data\qa_pairs.csv
+2025-08-20 19:15:08,523 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-20 19:15:09,721 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:15:12,167 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:15:14,452 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:17:31,708 | QAAgent | ERROR | Error processing query at ILLORA RETREATS 'Hii': Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-08-20 19:17:31,710 | web | INFO | Web | aeeecf4f-8943-4754-9199-e95061155f61 | Hii | We're sorry, there was an issue while assisting you. Please feel free to ask again or contact the ILLORA RETREATS front desk for immediate help. | Intent: greet
+2025-08-20 19:17:50,678 | QAAgent | ERROR | Error processing query at ILLORA RETREATS 'Where is illora retreats located': Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-08-20 19:17:50,678 | web | INFO | Web | aeeecf4f-8943-4754-9199-e95061155f61 | Where is illora retreats located | We're sorry, there was an issue while assisting you. Please feel free to ask again or contact the ILLORA RETREATS front desk for immediate help. | Intent: greet
+2025-08-20 19:18:05,681 | QAAgent | ERROR | Error processing query at ILLORA RETREATS 'what is it': Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-08-20 19:18:05,682 | web | INFO | Web | aeeecf4f-8943-4754-9199-e95061155f61 | what is it | We're sorry, there was an issue while assisting you. Please feel free to ask again or contact the ILLORA RETREATS front desk for immediate help. | Intent: ask_cancellation
+2025-08-20 19:27:52,211 | VectorStoreService | INFO | Loaded 1494 documents from data\qa_pairs.csv
+2025-08-20 19:28:06,859 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-20 19:28:06,861 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:28:08,880 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:28:10,736 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:28:31,350 | QAAgent | ERROR | Error processing query at ILLORA RETREATS 'hello': Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-08-20 19:40:45,674 | VectorStoreService | INFO | Loaded 1494 documents from data\qa_pairs.csv
+2025-08-20 19:40:54,973 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-20 19:40:55,658 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:40:57,112 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:40:58,531 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:41:09,661 | QAAgent | ERROR | Error processing query at ILLORA RETREATS 'hello': Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_22yN********************************************7aUo. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-08-20 19:50:26,184 | VectorStoreService | INFO | Loaded 1494 documents from data\qa_pairs.csv
+2025-08-20 19:50:35,870 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-20 19:50:36,517 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:50:37,867 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:50:39,184 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:50:52,992 | QAAgent | INFO | Processed query at ILLORA RETREATS: hello
+2025-08-20 19:51:25,547 | QAAgent | INFO | Processed query at ILLORA RETREATS: Where is Ilora located?
+2025-08-20 19:52:08,464 | QAAgent | INFO | Processed query at ILLORA RETREATS: What are the places nearby the hotel?
+2025-08-20 19:52:38,845 | QAAgent | INFO | Processed query at ILLORA RETREATS: Can you let me know what are the types of room available in your hotel
+2025-08-20 19:53:05,309 | QAAgent | INFO | Processed query at ILLORA RETREATS: I want to order a coffe
+2025-08-20 19:54:03,044 | QAAgent | INFO | Processed query at ILLORA RETREATS: I want a espresso in my room
+2025-08-20 19:54:17,967 | QAAgent | INFO | Processed query at ILLORA RETREATS: I want it right away
+2025-08-20 19:54:41,038 | QAAgent | INFO | Processed query at ILLORA RETREATS: I want my coffee right away
+2025-08-20 19:55:01,187 | QAAgent | INFO | Processed query at ILLORA RETREATS: Espresso
+2025-08-20 19:55:20,623 | QAAgent | INFO | Processed query at ILLORA RETREATS: Can you give me more information about the hotel
+2025-08-20 19:56:00,671 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:57:00,072 | QAAgent | INFO | Processed query at ILLORA RETREATS: heyy
+2025-08-20 19:57:17,694 | QAAgent | INFO | Processed query at ILLORA RETREATS: I want to know details of the hotek
+2025-08-20 19:59:43,147 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:59:44,590 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 19:59:45,903 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 20:36:51,165 | VectorStoreService | INFO | Loaded 804 documents from data\qa_pairs.csv
+2025-08-20 20:37:20,247 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-20 20:37:24,397 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 20:37:29,241 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 20:37:33,483 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 21:02:14,625 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 21:02:16,703 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 21:02:18,496 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-20 21:04:10,744 | QAAgent | INFO | Processed query at ILLORA RETREATS: Hello
+2025-08-20 21:04:51,048 | QAAgent | INFO | Processed query at ILLORA RETREATS: Give me details about the hotel
+2025-08-22 10:19:54,516 | VectorStoreService | INFO | Loaded 804 documents from data\qa_pairs.csv
+2025-08-22 10:20:10,171 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-22 10:20:10,172 | QAAgent | ERROR | Error initializing ILLORA RETREATS QA agent: type object 'Config' has no attribute 'GITHUB_TOKEN'
+2025-08-22 10:21:24,847 | VectorStoreService | INFO | Loaded 804 documents from data\qa_pairs.csv
+2025-08-22 10:21:35,853 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-22 10:21:35,853 | QAAgent | ERROR | Error initializing ILLORA RETREATS QA agent: type object 'Config' has no attribute 'GITHUB_TOKEN'
+2025-08-22 10:22:13,580 | VectorStoreService | INFO | Loaded 804 documents from data\qa_pairs.csv
+2025-08-22 10:22:24,656 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-22 10:22:24,690 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:22:27,295 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:22:29,332 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:22:50,433 | QAAgent | ERROR | Error processing query at ILLORA RETREATS 'hello': (unavailable_model) Unavailable model: gpt-5-nano
+Code: unavailable_model
+Message: Unavailable model: gpt-5-nano
+2025-08-22 10:25:05,644 | VectorStoreService | INFO | Loaded 804 documents from data\qa_pairs.csv
+2025-08-22 10:25:16,349 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-22 10:25:16,387 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:25:18,654 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:25:20,618 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:25:32,748 | QAAgent | ERROR | Error processing query at ILLORA RETREATS 'hello': (unavailable_model) Unavailable model: gpt-5
+Code: unavailable_model
+Message: Unavailable model: gpt-5
+2025-08-22 10:27:14,279 | VectorStoreService | INFO | Loaded 804 documents from data\qa_pairs.csv
+2025-08-22 10:27:25,015 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-22 10:27:25,064 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:27:27,185 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:27:29,267 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:27:40,638 | QAAgent | ERROR | Error processing query at ILLORA RETREATS 'hello': (unavailable_model) Unavailable model: gpt-5
+Code: unavailable_model
+Message: Unavailable model: gpt-5
+2025-08-22 10:29:18,931 | VectorStoreService | INFO | Loaded 804 documents from data\qa_pairs.csv
+2025-08-22 10:29:25,919 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-22 10:29:25,919 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:29:27,882 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:29:29,966 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:29:42,260 | QAAgent | ERROR | Error processing query at ILLORA RETREATS 'hello': (unavailable_model) Unavailable model: gpt-5
+Code: unavailable_model
+Message: Unavailable model: gpt-5
+2025-08-22 10:30:13,156 | VectorStoreService | INFO | Loaded 804 documents from data\qa_pairs.csv
+2025-08-22 10:30:23,228 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-22 10:30:23,290 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:30:25,489 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:30:27,836 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using GPT-5 Nano + FAISS grounding.
+2025-08-22 10:30:42,604 | QAAgent | ERROR | Error processing query at ILLORA RETREATS 'hello': (unavailable_model) Unavailable model: gpt-5
+Code: unavailable_model
+Message: Unavailable model: gpt-5
+2025-08-22 10:45:22,831 | VectorStoreService | INFO | Loaded 804 documents from data\qa_pairs.csv
+2025-08-22 10:45:36,481 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-22 10:45:37,449 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-22 10:45:39,021 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-22 10:45:40,618 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-22 10:45:49,489 | QAAgent | INFO | Processed query at ILLORA RETREATS: HELLO
+2025-08-22 10:46:09,790 | QAAgent | INFO | Processed query at ILLORA RETREATS: I want to book a room
+2025-08-22 10:49:08,570 | VectorStoreService | INFO | Loaded 804 documents from data\qa_pairs.csv
+2025-08-22 10:49:14,925 | VectorStoreService | INFO | Vector store created with Hugging Face embeddings.
+2025-08-22 10:49:14,925 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-22 10:49:16,336 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-22 10:49:17,731 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully using OpenAI GPT.
+2025-08-22 10:49:29,736 | QAAgent | INFO | Processed query at ILLORA RETREATS: hello
+2025-08-22 10:49:42,558 | QAAgent | INFO | Processed query at ILLORA RETREATS: i want to book a room
+2025-08-22 10:54:15,137 | QAAgent | INFO | Processed query at ILLORA RETREATS: I want to order a espresso to my roon
+2025-08-22 10:54:30,719 | QAAgent | INFO | Processed query at ILLORA RETREATS: it would be delivered in room 201
+2025-08-22 10:54:50,567 | QAAgent | INFO | Processed query at ILLORA RETREATS: deliver it immidiately
+2025-08-22 10:55:22,205 | QAAgent | INFO | Processed query at ILLORA RETREATS: I want a espresso in room 201 immidiately
+2025-08-22 10:56:01,321 | QAAgent | INFO | Processed query at ILLORA RETREATS: What are the check in and checkout times
+2025-08-22 10:56:19,853 | QAAgent | INFO | Processed query at ILLORA RETREATS: what is the check in time
+2025-08-22 10:56:38,079 | QAAgent | INFO | Processed query at ILLORA RETREATS: what is the location of the hotel
+2025-08-22 10:56:57,950 | QAAgent | INFO | Processed query at ILLORA RETREATS: what is the location of ilora
+2025-08-22 10:57:56,586 | QAAgent | INFO | Processed query at ILLORA RETREATS: Where is Ilora Retreats located
+2025-08-22 11:14:40,914 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 11:14:52,655 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 11:14:52,702 | QAAgent | INFO | ILLORA RETREATS QA agent initialized using GitHub Inference (gpt-5-nano) + FAISS grounding.
+2025-08-22 11:15:07,681 | QAAgent | ERROR | Error processing query at ILLORA RETREATS 'hello': (unavailable_model) Unavailable model: gpt-5-nano
+Code: unavailable_model
+Message: Unavailable model: gpt-5-nano
+2025-08-22 11:22:42,980 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 11:22:55,349 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 11:22:56,313 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 11:22:58,829 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 11:23:06,270 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 11:23:06,270 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 11:23:08,393 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 11:23:39,333 | QAAgent | INFO | Processed query at ILLORA RETREATS: hello
+2025-08-22 11:23:57,636 | QAAgent | INFO | Processed query at ILLORA RETREATS: where is ilora retreats located
+2025-08-22 11:24:49,920 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 11:24:57,400 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 11:24:57,400 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 11:24:59,552 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 11:25:01,907 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 11:25:15,173 | QAAgent | INFO | Processed query at ILLORA RETREATS: hello
+2025-08-22 13:17:25,572 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 13:17:39,990 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 13:17:40,673 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:20:45,596 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 13:20:52,425 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 13:20:52,426 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:20:54,772 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:20:56,982 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:34:58,242 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 13:35:05,723 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 13:35:05,724 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:35:08,235 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:35:10,938 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:36:15,348 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 13:36:23,081 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 13:36:23,081 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:36:25,511 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:36:28,064 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:36:44,675 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:40:38,284 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 13:40:52,208 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 13:40:52,209 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:40:56,993 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:41:02,636 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:42:05,864 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:48:48,421 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:48:51,563 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:48:56,812 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:53:52,239 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 13:53:59,850 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 13:53:59,851 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:54:02,178 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:54:04,432 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:54:39,055 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 13:54:50,548 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 13:54:51,165 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:54:53,280 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:54:55,465 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:59:09,725 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 13:59:17,601 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 13:59:17,601 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:59:19,815 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 13:59:22,116 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 14:02:37,834 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 14:02:49,618 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 14:02:50,193 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 14:02:52,917 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 14:02:55,666 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 15:52:29,613 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 15:52:52,587 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 15:52:54,415 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 15:53:15,473 | QAAgent | INFO | Processed query at ILLORA RETREATS: hello
+2025-08-22 15:53:27,362 | QAAgent | INFO | Processed query at ILLORA RETREATS: I want to book a rooom
+2025-08-22 15:57:03,328 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 15:57:15,040 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 15:57:15,042 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 16:07:15,344 | VectorStoreService | INFO | Loaded 786 Q&A documents from data\qa_pairs.csv
+2025-08-22 16:07:37,609 | VectorStoreService | INFO | Vector store created with embeddings: sentence-transformers/all-MiniLM-L6-v2
+2025-08-22 16:07:39,423 | QAAgent | INFO | ILLORA RETREATS QA agent initialized successfully.
+2025-08-22 16:07:53,185 | QAAgent | INFO | Processed query at ILLORA RETREATS: hello
+2025-08-22 16:08:06,301 | QAAgent | INFO | Processed query at ILLORA RETREATS: what are the check in and check out times
+2025-08-22 16:08:25,623 | QAAgent | INFO | Processed query at ILLORA RETREATS: where is ilora retreats located
