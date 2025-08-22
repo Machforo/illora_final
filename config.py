@@ -35,16 +35,16 @@ class Config:
     # ------------------------
     # Data paths
     # ------------------------
-    CSV_DATA_PATH = os.getenv("CSV_DATA_PATH", "data\\qa_pairs.csv")
+    CSV_DATA_PATH = os.getenv("CSV_DATA_PATH", "data/qa_pairs.csv")
 
     
     # ------------------------
     # QNA generation
     # ------------------------
     
-    RAW_DOCS_DIR = "data\\raw_docs"
-    SUMMARY_OUTPUT_PATH =  "data\\combined_summary.txt"
-    QA_OUTPUT_CSV =  "data\\qa_pairs.csv"
+    RAW_DOCS_DIR = "data/raw_docs"
+    SUMMARY_OUTPUT_PATH =  "data/combined_summary.txt"
+    QA_OUTPUT_CSV =  "data/qa_pairs.csv"
     UPLOAD_TEMP_DIR = "Hotel_docs"
 
     # Model / API config
