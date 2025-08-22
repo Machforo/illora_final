@@ -23,7 +23,7 @@ st.title("🏨 Hotel Concierge Bot — Q&A Generator")
 mode = st.selectbox("Choose how you want to generate Q&A pairs:", ["📋 Fill Hotel Form", "📄 Upload Hotel Documents"])
 
 # Shared output file
-OUTPUT_FILENAME = "qa_pairs.csv"
+OUTPUT_FILENAME = "data/qa_pairs.csv"
 
 # ------------------------- #
 # 📋 FORM-BASED Q&A LOGIC
