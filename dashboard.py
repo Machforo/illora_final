@@ -12,8 +12,8 @@ import uuid
 
 # run summarizer (keeps existing behaviour)
 summarizer.main()
-LOG_FILE = "data\\bot.log"
-SUMMARY_PATH = "data\\summary_log.jsonl"
+LOG_FILE = "data/bot.log"
+SUMMARY_PATH = "data/summary_log.jsonl"
 
 st.set_page_config(page_title="ILLORA_RETREATS – Admin Console", layout="wide")
 st.title("🏨 Illora Retreats – Concierge AI Admin Dashboard")
@@ -39,9 +39,9 @@ def ensure_csv(path, cols):
     return pd.read_csv(path)
 
 # --- Data Sources ---
-QA_CSV = "data\\qa_pairs.csv"
-MENU_FILE = "services\\menu.json"
-CAMPAIGNS_FILE = "data\\campaigns.json"
+QA_CSV = "data/qa_pairs.csv"
+MENU_FILE = "services/menu.json"
+CAMPAIGNS_FILE = "data/campaigns.json"
 
 # --- Tabs ---
 tabs = st.tabs(["📊 Analytics", "💬 Q&A Manager", "🏷️ Menu Manager", "📢 Campaigns Manager", "✅ Do's & ❌ Don'ts Manager"])
