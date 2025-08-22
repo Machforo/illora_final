@@ -36,7 +36,7 @@ st.set_page_config(page_title="ILORA Retreat – AI Concierge", page_icon="🛎�
 # --- Branding & constants ---
 LOGO_PATH = "add_ons\\logo.jpg"
 BACKGROUND_IMAGE = "add_ons\\illora_retreats.jpg"
-QR_LINK = "https://machforo-illora-ai-chieftain-web-ui-mll3bb.streamlit.app/"
+QR_LINK = "https://illorafinal-lhxrkgjufxiqhwjsakm2py.streamlit.app/"
 WHATSAPP_LINK = "https://wa.me/919876543210"
 
 # Static dirs
