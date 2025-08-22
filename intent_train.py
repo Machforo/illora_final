@@ -2,11 +2,11 @@ import yaml
 import csv
 
 # Load the YAML file
-with open("data\\nlu.yml", "r", encoding="utf-8") as file:
+with open("data/nlu.yml", "r", encoding="utf-8") as file:
     data = yaml.safe_load(file)
 
 # Open a CSV file to write
-with open("data\\intent_dataset.csv", "w", newline='', encoding="utf-8") as csvfile:
+with open("data/intent_dataset.csv", "w", newline='', encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["question", "intent"])  # header
 
@@ -28,7 +28,7 @@ from sklearn.metrics import classification_report
 import joblib
 
 # Load dataset
-df = pd.read_csv("data\\intent_dataset.csv")
+df = pd.read_csv("data/intent_dataset.csv")
 
 # Split into train and test
 X_train, X_test, y_train, y_test = train_test_split(df["question"], df["intent"], test_size=0.2, random_state=42)
