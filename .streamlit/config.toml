@@ -9,8 +9,9 @@ enableXsrfProtection = false
 
 [theme]
 base="light"
-primaryColor="#28a745"          # main brand green (matches your form button)
-backgroundColor="rgba(157, 229, 247, 1)"       # dark background (helps with contrast if no bg image loads)
-secondaryBackgroundColor="#2d3546ff"  # sidebar & containers
-textColor="#ffffff"             # white text for readability
-font="sans serif"               # clean and modern font
+primaryColor="#28a745"             # Brand green (for buttons, highlights)
+backgroundColor="#f8f9fa"          # Very light background
+secondaryBackgroundColor="#e9ecef" # Slightly darker for sidebar/cards
+textColor="#212529"                # Dark gray for readability
+font="sans serif"                  # Clean and modern
+
